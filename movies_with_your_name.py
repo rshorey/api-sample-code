@@ -14,4 +14,4 @@ movies = r.json()
 #the first level of the dictionary is titled "Search".
 #loop through all the movies in the search and print our their titles
 for m in movies["Search"]:
-    print m["Title"]
+    print "\"{0}\" came out in {1}".format(m["Title"],m["Year"])
