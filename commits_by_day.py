@@ -1,3 +1,7 @@
+#for a github repo, on which day are the most
+#commits made?
+
+
 import requests
 import datetime #to convert dates to day of week
 

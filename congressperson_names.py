@@ -1,8 +1,13 @@
-import requests
-import time
+#for all first names represented in congress,
+#how many members have each name?
 
 #you will need a sunlight API key for this.
 #to sign up for one, go here: http://sunlightfoundation.com/api/accounts/register/
+
+
+import requests
+import time
+
 
 #prompt the user for a sunlight foundation API key
 
